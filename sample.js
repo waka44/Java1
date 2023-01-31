@@ -1,4 +1,4 @@
-const nickname = "taro"
+var nickname = "taro"
 console.log(nickname)
-const nickname = "ichiro"
+nickname = "jiro"
 console.log(nickname)
