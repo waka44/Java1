@@ -1,9 +1,10 @@
-var str = "webcamp" 
-
 function foo() {
-  console.log(str)
-  var y = "hello" 
+  let x = "webcamp"
+  {
+    let y = "hello webcamp"
+  }
+  console.log(x)
+  console.log(y)
 }
 
 foo()
-console.log(y)
