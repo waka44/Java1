@@ -1,10 +1,13 @@
-let alertString;
+function getJShand(){
+  let js_hand_num = Math.floor( Math.random() * 3 );
 
-alertString = addString("WebCamp");
+  if(js_hand_num == 0){
+    js_hand = "グー";
+  } else if(js_hand_num == 1){
+    js_hand = "チョキ";
+  } else if(js_hand_num == 2){
+    js_hand = "パー";
+  }
 
-alert(alertString);
-
-function addString(strA){
-  let addStr = "Hello " + strA;
-  return addStr;
+  return js_hand;
 }
