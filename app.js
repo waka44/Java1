@@ -1,6 +1,5 @@
-$(function(){
-  $('.box1').css({
-    'background-color': '#0000FF',
-    'height': '100px'
-  });
-});
+.box1 {
+  display: none;  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+}
