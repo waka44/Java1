@@ -5,57 +5,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 h1 {
   text-align: center;
   margin: 50px 0;
 }
-
-.wrap {
-  width: 90%;
-  max-width: 800px;
-  margin: 0 auto;
+.box {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
 }
-
-#tab-menu {
-  display: flex;
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
-
-#tab-menu li {
-  list-style-type: none;
-  width: 25%;
-}
-
-#tab-menu li a {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 20px;
-  text-align: center;
-  background: #000;
-  border: 1px solid #000;
-  border-bottom: none;
-}
-
-#tab-menu .active {
-  background: #fff;
-  color: #000;
-}
-
-#tab-contents {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#tab-contents .tab {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  border: 1px solid #000;
-  border-top: none;
-}
-
-#tab-contents p {
-  color: #000;
-  line-height: 2.5;
+#back img {
+  width: 50px;
 }
